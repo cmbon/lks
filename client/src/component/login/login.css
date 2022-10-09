@@ -1,0 +1,25 @@
+.card-login {
+    @apply block p-6 rounded-lg shadow-lg mt-20 bg-white w-[32rem]
+}
+
+.text-header {
+    @apply text-gray-900 text-2xl leading-tight font-medium mb-2 text-center
+}
+
+.form-group {
+    @apply text-start
+}
+
+.form-group input {
+    @apply border-b-4 my-3 text-xl hover:shadow-xl w-full
+}
+
+.btn-submit {
+    @apply inline-block w-full px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-xl shadow-md 
+    hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 
+    active:shadow-lg transition duration-150 ease-in-out float-right
+}
+
+.register {
+    @apply mt-4 text-sm
+}

@@ -1,0 +1,28 @@
+
+.d {
+    background-color: white;
+    display: flex;
+    position: absolute;
+    /* margin-top: ; */
+    width: 14rem;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+.d:empty {
+    border: none;
+}
+
+.d-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+}
+
+.d-input {
+    width: 220px;
+}
+
+.search-inner {
+    display: flex;
+}
