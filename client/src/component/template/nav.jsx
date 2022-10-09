@@ -27,7 +27,7 @@ function Input() {
     };
 
     const onGetSearch = (search) => {
-        window.location.href = "tags/" + search
+        window.location.href = "/tags/" + search
     }
 
     return (
